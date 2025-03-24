@@ -1,0 +1,12 @@
+name: olist-etl
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.12
+  - pandas=2.2.3
+  - pandera=0.23.1
+  - pyodbc=5.2.0
+  - sqlalchemy=2.0.39
+prefix: /opt/anaconda3/envs/olist-etl
